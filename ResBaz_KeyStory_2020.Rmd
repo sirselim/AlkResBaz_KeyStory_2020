@@ -167,6 +167,21 @@ I used the word portable in my previous slide, this is not a phrase one would at
 These things are huge! ... and expensive.
 
 ---
+class: middle
+
+> *"Soon, It Will Cost Less To Sequence A Genome Than To Flush A Toilet -- And That Will Change Medicine Forever"*
+
+<p>
+.center[
+<img src="images/seqCost.png" style="width: 620px; margin-right: 1%; margin-top: 1.5em;"/>
+]
+</p>
+
+.small[.center[
+(image source: [https://www.businessinsider.com.au/super-cheap-genome-sequencing](https://www.businessinsider.com.au/super-cheap-genome-sequencing-by-2020-2014-10))
+]]
+
+---
 class: top
 
 # Can we speed things up?

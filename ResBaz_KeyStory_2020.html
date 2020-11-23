@@ -201,6 +201,21 @@ I used the word portable in my previous slide, this is not a phrase one would at
 These things are huge! ... and expensive.
 
 ---
+class: middle
+
+&gt; *"Soon, It Will Cost Less To Sequence A Genome Than To Flush A Toilet -- And That Will Change Medicine Forever"*
+
+&lt;p&gt;
+.center[
+&lt;img src="images/seqCost.png" style="width: 620px; margin-right: 1%; margin-top: 1.5em;"/&gt;
+]
+&lt;/p&gt;
+
+.small[.center[
+(image source: [https://www.businessinsider.com.au/super-cheap-genome-sequencing](https://www.businessinsider.com.au/super-cheap-genome-sequencing-by-2020-2014-10))
+]]
+
+---
 class: top
 
 # Can we speed things up?
@@ -528,8 +543,8 @@ Most Jetson devices have the ability to be put into different power modes
 
 &lt;br&gt;
 
-<div id="htmlwidget-f7668e77cff436a1aaed" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f7668e77cff436a1aaed">{"x":{"filter":"none","fillContainer":false,"data":[["10W","15W","30W 2 cores","30W 4 cores","30W MAX (8 cores)"],["33.4 mins","14.3 mins","10.8 mins","10.8 mins","7.5 mins"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Power.mode<\/th>\n      <th>Time<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fca28f160881465e686c" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fca28f160881465e686c">{"x":{"filter":"none","fillContainer":false,"data":[["10W","15W","30W 2 cores","30W 4 cores","30W MAX (8 cores)"],["33.4 mins","14.3 mins","10.8 mins","10.8 mins","7.5 mins"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Power.mode<\/th>\n      <th>Time<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 .small[
 ***Note:*** this table represents basecalling performed when running on a portable powerbank.
 ]
@@ -545,8 +560,8 @@ class: top
 
 ## Very rough comparison of Nvidia ecosystem&lt;sup&gt;#&lt;/sup&gt;
 
-<div id="htmlwidget-d97e06b1f2fff533d841" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d97e06b1f2fff533d841">{"x":{"filter":"none","fillContainer":false,"data":[["Jetson Nano","Jetson Xavier NX*","Jetson Xavier","Geforce 1080 Ti","Geforce 2080 Ti","Titan RTX","Tesla V100"],["~0.5","6","11","11.3","~13-14","16.3","16.4"],["$99","$399","$699","~$650","~$800-$1000","~$3000","~$8500"],["5-10W","10-15W","10-30W","215W","250W","280W","250W"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Card<\/th>\n      <th>TFLOPS<\/th>\n      <th>Price<\/th>\n      <th>Power<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-117b9a8e5e25954a23ab" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-117b9a8e5e25954a23ab">{"x":{"filter":"none","fillContainer":false,"data":[["Jetson Nano","Jetson Xavier NX*","Jetson Xavier","Geforce 1080 Ti","Geforce 2080 Ti","Titan RTX","Tesla V100"],["~0.5","6","11","11.3","~13-14","16.3","16.4"],["$99","$399","$699","~$650","~$800-$1000","~$3000","~$8500"],["5-10W","10-15W","10-30W","215W","250W","280W","250W"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Card<\/th>\n      <th>TFLOPS<\/th>\n      <th>Price<\/th>\n      <th>Power<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 .small[Price in USD]  
 .small[&lt;sup&gt;#&lt;/sup&gt; a very small selection of what Nvidia offers obviously!]  
