@@ -26,7 +26,7 @@ options(htmltools.dir.version = FALSE)
 options(knitr.table.format = "html") 
 # require(DT)
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons", "panelset"))
-xaringanExtra::use_webcam(width = 500, height = 375)
+xaringanExtra::use_webcam(width = 1100, height = 800)
 ```
 
 ```{r xaringan-logo, echo=FALSE}
@@ -75,10 +75,13 @@ xaringanExtra::use_logo(
 </footer>
 
 ---
+class: middle
 
-Who are we?
+# Who are we?
 
-You may have seen recently...
+.pull.right[
+.large[<span style="color:#3498DB">**You may have seen recently**...</span>]
+]
 
 ---
 class: top
@@ -119,6 +122,13 @@ Part of all 'living' things
 # The Human Genomics group
 
 ---
+class: middle
+
+# A big part of what we do is sequencing
+
+.center[<img src="images/dna_hackers.jpg" style="width: 30%; margin-right: 1%; margin-top: 0em;"/>]
+
+---
 layout: false
 class: middle
 
@@ -141,7 +151,7 @@ These things are huge! ... and expensive.
 ---
 class: top
 
-# Now to speed things up!
+# Can we speed things up?
 
 <b>Thanks to eResearch 2020<b> ...enter [Nvidia Clara Parabricks](https://www.nvidia.com/en-us/docs/parabricks/)
 
@@ -307,7 +317,11 @@ ESR GPU basecalling benchmarks [(link)](https://esr-nz.github.io/gpu_basecalling
 ---
 class: middle
 
-# Background: a personal story
+# Let's step back a couple of years 
+
+.pull.right[
+.large[<span style="color:#3498DB">... **a personal story** ...</span>]
+]
 
 ---
 class: middle
@@ -379,6 +393,10 @@ Stress how fast and low cost this has the potential to be.
 ---
 
 # Standing by for live transmission...
+
+<p style="border:solid thick black; border-radius: 0em; 
+          border-width:5px; padding-left:9px; padding-top:6px; 
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
 
 ---
 class: top
@@ -560,7 +578,7 @@ class: middle
 
 <br />
 
-.center[You can follow the story here: [GitHub Gist: Xavier basecalling notes](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94)]
+.center[You can follow the story here: [GitHub Gist - Xavier basecalling notes](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94)]
 
 ---
 
@@ -592,12 +610,45 @@ class: middle
 ]
 
 ---
+class: hide_logo
 
 # The present!
+
+<article class="cf">
+    <div class="fl w-100 w-33-m w-50-l pa1">
+    <a class="db aspect-ratio aspect-ratio--1x1">
+      <span role="img" style="background-image:url(images/xavier-ont.gif);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-33-m w-25-l pa1">
+    <a class="db aspect-ratio aspect-ratio--1x1">
+      <span role="img" style="background-image:url(images/xavnx_board.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-33-m w-25-l pa1">
+    <a class="db aspect-ratio aspect-ratio--1x1">
+      <span role="img" style="background-image:url(images/xavnx_screen.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-33-m w-25-l pa1">
+    <a class="db aspect-ratio aspect-ratio--1x1">
+      <span role="img" style="background-image:url(images/Matt_hand.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+  <div class="fl w-50 w-33-m w-25-l pa1">
+    <a class="db aspect-ratio aspect-ratio--1x1">
+      <span role="img" style="background-image:url(images/full_kit.jpg);" class="bg-center cover aspect-ratio--object"></span>
+    </a>
+  </div>
+</article>
 
 ---
 
 # Let's take a tour...
+
+<p style="border:solid thick black; border-radius: 0em; 
+          border-width:5px; padding-left:9px; padding-top:6px; 
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
 
 ---
 
@@ -618,6 +669,7 @@ class: middle
   * [Xavier benchmarking](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94#file-basecalling_notes-md)
 
 ---
+class: middle hide_logo
 
 # Some parting thoughts
 

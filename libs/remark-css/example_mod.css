@@ -65,6 +65,7 @@ blockquote {
   border-left: solid 5px lightgray;
   padding-left: 1em;
 }
+.massive { font-size: 85px }
 .huge { font-size: 160% }
 .large { font-size: 130% }
 .medium { font-size: 90% }

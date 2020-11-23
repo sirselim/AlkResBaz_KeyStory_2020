@@ -10,7 +10,7 @@
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
     <script src="libs/xaringanExtra-webcam/webcam.js"></script>
-    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"500","height":"375","margin":"1em"}</script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"1100","height":"800","margin":"1em"}</script>
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
     <script src="libs/jquery/jquery.min.js"></script>
     <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
@@ -109,10 +109,13 @@ right:1.5em;bottom:1px;
 &lt;/footer&gt;
 
 ---
+class: middle
 
-Who are we?
+# Who are we?
 
-You may have seen recently...
+.pull.right[
+.large[&lt;span style="color:#3498DB"&gt;**You may have seen recently**...&lt;/span&gt;]
+]
 
 ---
 class: top
@@ -153,6 +156,13 @@ Part of all 'living' things
 # The Human Genomics group
 
 ---
+class: middle
+
+# A big part of what we do is sequencing
+
+.center[&lt;img src="images/dna_hackers.jpg" style="width: 30%; margin-right: 1%; margin-top: 0em;"/&gt;]
+
+---
 layout: false
 class: middle
 
@@ -175,7 +185,7 @@ These things are huge! ... and expensive.
 ---
 class: top
 
-# Now to speed things up!
+# Can we speed things up?
 
 &lt;b&gt;Thanks to eResearch 2020&lt;b&gt; ...enter [Nvidia Clara Parabricks](https://www.nvidia.com/en-us/docs/parabricks/)
 
@@ -341,7 +351,11 @@ ESR GPU basecalling benchmarks [(link)](https://esr-nz.github.io/gpu_basecalling
 ---
 class: middle
 
-# Background: a personal story
+# Let's step back a couple of years 
+
+.pull.right[
+.large[&lt;span style="color:#3498DB"&gt;... **a personal story** ...&lt;/span&gt;]
+]
 
 ---
 class: middle
@@ -413,6 +427,10 @@ Stress how fast and low cost this has the potential to be.
 ---
 
 # Standing by for live transmission...
+
+&lt;p style="border:solid thick black; border-radius: 0em; 
+          border-width:5px; padding-left:9px; padding-top:6px; 
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;"&gt;
 
 ---
 class: top
@@ -491,8 +509,8 @@ Most Jetson devices have the ability to be put into different power modes
 
 &lt;br&gt;
 
-<div id="htmlwidget-adba6a82954279cd2ea5" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-adba6a82954279cd2ea5">{"x":{"filter":"none","fillContainer":false,"data":[["10W","15W","30W 2 cores","30W 4 cores","30W MAX (8 cores)"],["33.4 mins","14.3 mins","10.8 mins","10.8 mins","7.5 mins"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Power.mode<\/th>\n      <th>Time<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fab00a9c25b7b0df7220" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fab00a9c25b7b0df7220">{"x":{"filter":"none","fillContainer":false,"data":[["10W","15W","30W 2 cores","30W 4 cores","30W MAX (8 cores)"],["33.4 mins","14.3 mins","10.8 mins","10.8 mins","7.5 mins"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Power.mode<\/th>\n      <th>Time<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 .small[
 ***Note:*** this table represents basecalling performed when running on a portable powerbank.
 ]
@@ -508,8 +526,8 @@ class: top
 
 ## Very rough comparison of Nvidia ecosystem&lt;sup&gt;#&lt;/sup&gt;
 
-<div id="htmlwidget-0d27a6dea6f16b305a3d" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0d27a6dea6f16b305a3d">{"x":{"filter":"none","fillContainer":false,"data":[["Jetson Nano","Jetson Xavier NX*","Jetson Xavier","Geforce 1080 Ti","Geforce 2080 Ti","Titan RTX","Tesla V100"],["~0.5","6","11","11.3","~13-14","16.3","16.4"],["$99","$399","$699","~$650","~$800-$1000","~$3000","~$8500"],["5-10W","10-15W","10-30W","215W","250W","280W","250W"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Card<\/th>\n      <th>TFLOPS<\/th>\n      <th>Price<\/th>\n      <th>Power<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7d86d5454c31e6a75743" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7d86d5454c31e6a75743">{"x":{"filter":"none","fillContainer":false,"data":[["Jetson Nano","Jetson Xavier NX*","Jetson Xavier","Geforce 1080 Ti","Geforce 2080 Ti","Titan RTX","Tesla V100"],["~0.5","6","11","11.3","~13-14","16.3","16.4"],["$99","$399","$699","~$650","~$800-$1000","~$3000","~$8500"],["5-10W","10-15W","10-30W","215W","250W","280W","250W"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Card<\/th>\n      <th>TFLOPS<\/th>\n      <th>Price<\/th>\n      <th>Power<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 .small[Price in USD]  
 .small[&lt;sup&gt;#&lt;/sup&gt; a very small selection of what Nvidia offers obviously!]  
@@ -582,7 +600,7 @@ class: middle
 
 &lt;br /&gt;
 
-.center[You can follow the story here: [GitHub Gist: Xavier basecalling notes](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94)]
+.center[You can follow the story here: [GitHub Gist - Xavier basecalling notes](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94)]
 
 ---
 
@@ -614,12 +632,45 @@ class: middle
 ]
 
 ---
+class: hide_logo
 
 # The present!
+
+&lt;article class="cf"&gt;
+    &lt;div class="fl w-100 w-33-m w-50-l pa1"&gt;
+    &lt;a class="db aspect-ratio aspect-ratio--1x1"&gt;
+      &lt;span role="img" style="background-image:url(images/xavier-ont.gif);" class="bg-center cover aspect-ratio--object"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-50 w-33-m w-25-l pa1"&gt;
+    &lt;a class="db aspect-ratio aspect-ratio--1x1"&gt;
+      &lt;span role="img" style="background-image:url(images/xavnx_board.jpg);" class="bg-center cover aspect-ratio--object"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-50 w-33-m w-25-l pa1"&gt;
+    &lt;a class="db aspect-ratio aspect-ratio--1x1"&gt;
+      &lt;span role="img" style="background-image:url(images/xavnx_screen.jpg);" class="bg-center cover aspect-ratio--object"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-50 w-33-m w-25-l pa1"&gt;
+    &lt;a class="db aspect-ratio aspect-ratio--1x1"&gt;
+      &lt;span role="img" style="background-image:url(images/Matt_hand.jpg);" class="bg-center cover aspect-ratio--object"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-50 w-33-m w-25-l pa1"&gt;
+    &lt;a class="db aspect-ratio aspect-ratio--1x1"&gt;
+      &lt;span role="img" style="background-image:url(images/full_kit.jpg);" class="bg-center cover aspect-ratio--object"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
 
 ---
 
 # Let's take a tour...
+
+&lt;p style="border:solid thick black; border-radius: 0em; 
+          border-width:5px; padding-left:9px; padding-top:6px; 
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;"&gt;
 
 ---
 
@@ -640,6 +691,7 @@ class: middle
   * [Xavier benchmarking](https://gist.github.com/sirselim/2ebe2807112fae93809aa18f096dbb94#file-basecalling_notes-md)
 
 ---
+class: middle hide_logo
 
 # Some parting thoughts
 
