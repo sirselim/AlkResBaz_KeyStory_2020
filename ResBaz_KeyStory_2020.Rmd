@@ -140,7 +140,7 @@ Part of all 'living' things
   * exploring the replacement of gene panels with exome/genome
 
 ---
-class: middle
+class: middle center
 
 # A big part of what we do is sequencing
 
@@ -354,7 +354,7 @@ class: middle
 ---
 class: top
 
-# case study
+# a personal story
 
 .large[
 <br>
@@ -376,7 +376,7 @@ class: top
 ---
 class: top
 
-# case study
+# a personal story
 
 .large[
 ... imagine a more ‘real-time’ procedure:
@@ -413,8 +413,8 @@ Stress how fast and low cost this has the potential to be.
 # Standing by for live transmission...
 
 <p style="border:solid thick grey; border-radius: 0.5em; 
-          border-width:5px; padding-left:9px; padding-top:6px; 
-          padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
+          border-width:5px; padding-left:9px; padding-top:6px; align-items: center; display: flex; justify-content:center;
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;"><i>... live video content ...</i></p>
 
 ---
 class: top
@@ -666,8 +666,8 @@ class: hide_logo
 # Let's take a tour...
 
 <p style="border:solid thick grey; border-radius: 0.5em; 
-          border-width:5px; padding-left:9px; padding-top:6px; 
-          padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
+          border-width:5px; padding-left:9px; padding-top:6px; align-items: center; display: flex; justify-content:center;
+          padding-bottom:6px; margin:0px auto; width:710px; height:540px;"><i>... live video content ...</i></p>
 
 ---
 
