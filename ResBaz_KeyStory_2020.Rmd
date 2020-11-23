@@ -119,7 +119,25 @@ Part of all 'living' things
 
 ---
 
-# The Human Genomics group
+# A snapshot of the Human Genomics group
+
+* **Independent research**
+  * type-2 diabetes & obesity (genomics, epigenetics, protein 'omics)
+  * Guinea pigs! (<span style="color:#3498DB"><b>Max Berry, University of Otago</b></span>)
+  * empowering people to explore and interpret their data
+
+<br>
+
+* **Clinical diagnostics through genetics**
+  * Contract(s) with CCDHB <span style="color:#3498DB"><b>Wellington Regional Genetics Lab</b></span>
+  * Providing support to CCDHB for Clinical Genomics GA project (<span style="color:#3498DB"><b>Stephen Robertson</b></span>)
+
+<br>
+
+* **Clinical research**, in collaboration with local clinician (<span style="color:#3498DB"><b>Richard Carroll</b></span>) - hyperparathyroidism
+  * sequencing 100 exomes
+  * engaging clinicians from other DHBs
+  * exploring the replacement of gene panels with exome/genome
 
 ---
 class: middle
