@@ -412,7 +412,7 @@ Stress how fast and low cost this has the potential to be.
 
 # Standing by for live transmission...
 
-<p style="border:solid thick black; border-radius: 0em; 
+<p style="border:solid thick grey; border-radius: 0.5em; 
           border-width:5px; padding-left:9px; padding-top:6px; 
           padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
 
@@ -429,9 +429,10 @@ Portable ‘real-time’ sequencing for the masses?
 
 * <span style="color:#3498DB">**the idea**</span>
 
-  * low cost
+  * low cost (< many mobile phones)
   * accessible
   * portable
+  * robust (...may have "performed" a drop test...)
   * fun!
 
 --
@@ -664,7 +665,7 @@ class: hide_logo
 
 # Let's take a tour...
 
-<p style="border:solid thick black; border-radius: 0em; 
+<p style="border:solid thick grey; border-radius: 0.5em; 
           border-width:5px; padding-left:9px; padding-top:6px; 
           padding-bottom:6px; margin:0px auto; width:710px; height:540px;">
 
