@@ -296,12 +296,10 @@ layout: false
 class: middle hide_logo
 
 <center>
-<iframe width="852" height="480" src="https://www.youtube.com/embed/RcP85JHLmnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1000" height="562" src="https://www.youtube.com/embed/RcP85JHLmnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 &copy; Oxford Nanopore Technologies
 </center>
-
-
 
 ---
 layout: false
