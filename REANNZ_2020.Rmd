@@ -4,7 +4,7 @@ author:  |
   | [Miles Benton](https://twitter.com/miles_benton)
   | Institute of Environmental Science and Research (ESR)
   | 
-  | .large[<b>Auckland Research Bazaar</b>, 24<small><sup>th</sup></small> November 2020]
+  | .large[<b>REANNZ Visit</b>, 11<small><sup>th</sup></small> December 2020]
   |
   |
   | .center[<img src="images/ESR_SFC_logo.png" style="width: 25%; border: 3px solid white;"/>]
@@ -780,22 +780,6 @@ Richard Dean (ESR)
 Shane Sturrock (ESR)  
 Russell Smithies (ESR)  
 ]]
-
----
-class: middle
-
-.center[Don't miss the workflow best practice workshop later this week!]
-
-<article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
-  <div class="tc">
-    <img src="images/Leah.jpeg" class="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of team member">
-    <h4 class="f3 mb2">Leah Kemp</h4>
-    <h4 class="f5 fw4 gray mt0">(ESR)</h4>
-    <h4 class="f5 fw4 gray mt0">Workflow languages – your foundation for accuracy and reproducibility in data analysis</h4>
-    <h4 class="f5 fw4 gray mt0"><b>Date:</b> Friday 27 November 2020</h4> 
-    <h4 class="f5 fw4 gray mt0"><b>Time:</b> 2:30pm - 3:30pm</h4>
-  </div>
-</article>
 
 ---
 class: middle hide_logo
